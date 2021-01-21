@@ -231,7 +231,7 @@ bot.on("message", async (msg) => {
 
       msg.delete()
 
-      msg.reply('Wrong command, read the channel description')
+      msg.reply('Wrong command, you shold type `I accept all the rules in the <#780144055635017758>` to be authorized')
 
       .then(msg => {
 
